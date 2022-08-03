@@ -186,7 +186,8 @@ a {
     color: var(--title-inverse-color);
 }
 
-.hero-btn:hover {
+.hero-btn:hover,
+.hero-btn:focus {
     background-color: #188CE8;
 }
 
@@ -289,13 +290,7 @@ a {
     margin-bottom: 10px;
 }
 
-
-.team-item {
-    /* padding-bottom: 94px; */
-}
-
 .team-name {
-
     font-weight: 700;
     font-size: 36px;
     line-height: 1.17;
